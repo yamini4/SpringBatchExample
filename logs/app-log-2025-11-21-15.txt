@@ -1,0 +1,579 @@
+2025-11-21 15:09:47 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m37s538ms744µs100ns).
+2025-11-21 15:32:29 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-21 15:32:29 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 15:32:29 INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:32:29 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 15:32:29 INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:32:31 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-11-21 15:32:53 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-11-21 15:32:59 INFO  org.springframework.context.support.DefaultLifecycleProcessor - Shutdown phase 1073741823 ends with 1 bean still running after timeout of 30000ms: [taskScheduler]
+2025-11-21 15:32:59 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:32:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-21 15:32:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-21 15:32:59 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 20880 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:32:59 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:32:59 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 0 ms.
+2025-11-21 15:32:59 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-21 15:33:00 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2025-11-21 15:33:00 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 15:33:00 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:33:00 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-21 15:33:00 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-21 15:33:00 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-21 15:33:00 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 519 ms
+2025-11-21 15:33:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-21 15:33:00 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@618d11e2
+2025-11-21 15:33:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-21 15:33:00 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-21 15:33:00 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-21 15:33:00 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-21 15:33:00 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-21 15:33:00 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-21 15:33:00 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-21 15:33:00 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:33:00 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-21 15:33:00 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:33:00 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:33:00 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-21 15:33:00 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-21 15:33:00 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:33:00 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 15:33:00 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 1.156 seconds (process running for 3400.502)
+2025-11-21 15:33:00 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-21 15:33:02 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-21 15:33:02 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 15:33:02 INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:33:02 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 15:33:02 INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:33:02 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:33:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-11-21 15:33:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-11-21 15:33:02 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 20880 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:33:02 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:33:02 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 0 ms.
+2025-11-21 15:33:02 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-21 15:33:02 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-11-21 15:33:02 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 15:33:02 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:33:02 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-21 15:33:02 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-21 15:33:02 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-21 15:33:02 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 319 ms
+2025-11-21 15:33:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-11-21 15:33:02 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b7ab545
+2025-11-21 15:33:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-11-21 15:33:02 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-21 15:33:02 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-21 15:33:02 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-21 15:33:02 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-21 15:33:02 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-21 15:33:02 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-21 15:33:02 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:33:02 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-21 15:33:02 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:33:02 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:33:02 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-21 15:33:03 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-21 15:33:03 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:33:03 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 15:33:03 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 0.715 seconds (process running for 3402.83)
+2025-11-21 15:33:03 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-21 15:35:53 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 29220 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:35:53 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:35:53 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-21 15:35:53 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-21 15:35:53 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 6 ms.
+2025-11-21 15:35:54 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-21 15:35:54 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2025-11-21 15:35:54 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 15:35:54 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:35:54 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-21 15:35:54 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-21 15:35:54 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-21 15:35:54 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1769 ms
+2025-11-21 15:35:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 15:35:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ea38a69
+2025-11-21 15:35:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 15:35:55 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-21 15:35:55 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-21 15:35:55 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-21 15:35:56 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-21 15:35:56 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-21 15:35:56 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-21 15:35:57 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-21 15:35:57 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:35:57 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-21 15:35:57 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:35:57 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:35:57 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-21 15:35:58 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-21 15:35:58 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:35:58 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 15:35:58 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 5.923 seconds (process running for 6.375)
+2025-11-21 15:36:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:36:00.013898800
+2025-11-21 15:36:00 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:36:00.449 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:01.470+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 35876 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:36:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:01.480+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:36:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:02.694+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:36:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:02.717+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:36:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:02.717+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:36:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:02.776+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1196 ms
+2025-11-21 15:36:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:03.327+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2025-11-21 15:36:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:36:03.346+05:30  INFO 35876 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Started ExternalJarForActivityApplication in 2.626 seconds (process running for 3.233)
+2025-11-21 15:48:29 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 37240 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:48:29 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:48:29 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-21 15:48:29 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-21 15:48:30 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 6 ms.
+2025-11-21 15:48:30 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-21 15:48:30 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-11-21 15:48:31 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 15:48:31 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:48:31 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-21 15:48:31 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-21 15:48:31 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-21 15:48:31 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1754 ms
+2025-11-21 15:48:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-21 15:48:31 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@190e9b6b
+2025-11-21 15:48:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-21 15:48:31 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-21 15:48:31 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-21 15:48:31 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-21 15:48:32 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-21 15:48:32 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-21 15:48:32 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-21 15:48:33 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-21 15:48:33 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:48:33 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-21 15:48:33 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:48:33 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:48:33 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-21 15:48:34 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-21 15:48:34 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:48:34 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 15:48:34 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 5.705 seconds (process running for 6.152)
+2025-11-21 15:49:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:49:00.020225
+2025-11-21 15:49:00 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:49:00.415 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:01.318+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 16568 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:49:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:01.325+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:49:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:02.295+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:49:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:02.307+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:49:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:02.307+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:49:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:02.347+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 951 ms
+2025-11-21 15:49:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:02.805+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2025-11-21 15:49:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:49:02.821+05:30  INFO 16568 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Started ExternalJarForActivityApplication in 2.191 seconds (process running for 2.707)
+2025-11-21 15:50:20 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-21 15:50:20 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 15:50:20 INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:50:20 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 15:50:20 INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:50:50 INFO  org.springframework.context.support.DefaultLifecycleProcessor - Shutdown phase 1073741823 ends with 1 bean still running after timeout of 30000ms: [taskScheduler]
+2025-11-21 15:50:50 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:50:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-21 15:50:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-21 15:50:51 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 37240 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:50:51 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:50:51 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 0 ms.
+2025-11-21 15:50:51 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-21 15:50:51 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2025-11-21 15:50:51 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 15:50:51 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:50:51 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-21 15:50:51 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-21 15:50:51 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-21 15:50:51 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 401 ms
+2025-11-21 15:50:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-11-21 15:50:51 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e82f8c0
+2025-11-21 15:50:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-11-21 15:50:51 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-21 15:50:51 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-21 15:50:51 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-21 15:50:51 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-21 15:50:51 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-21 15:50:51 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-21 15:50:51 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:50:51 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-21 15:50:51 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:50:51 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:50:51 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-21 15:50:51 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-21 15:50:51 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:50:51 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 15:50:51 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 0.775 seconds (process running for 143.589)
+2025-11-21 15:50:51 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-21 15:51:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:51:00.012355200
+2025-11-21 15:51:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:51:00.120113100
+2025-11-21 15:51:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720460014, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:51:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:51:00.121126700
+2025-11-21 15:51:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:51:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:51:01.981 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:51:02 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 1s885ms
+2025-11-21 15:51:02 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720460014, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 1s943ms
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:02.962+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 12812 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:51:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:02.967+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.074+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.093+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.093+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.150+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1101 ms
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.625+05:30  WARN 12812 --- [ExternalJarForActivity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.642+05:30  INFO 12812 --- [ExternalJarForActivity] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:51:04.669+05:30 ERROR 12812 --- [ExternalJarForActivity] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: APPLICATION FAILED TO START
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Description:
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Web server failed to start. Port 8085 was already in use.
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Action:
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:51:04 INFO  com.example.demo.scheduler.JarScheduler - External jar completed with exit code: 1
+2025-11-21 15:52:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:52:00.008291800
+2025-11-21 15:52:00 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:52:00.478 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:01.419+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 25812 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:52:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:01.425+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:52:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:02.456+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:52:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:02.468+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:52:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:02.469+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:52:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:02.509+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1000 ms
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:03.017+05:30  WARN 25812 --- [ExternalJarForActivity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:03.032+05:30  INFO 25812 --- [ExternalJarForActivity] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:52:03.057+05:30 ERROR 25812 --- [ExternalJarForActivity] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: APPLICATION FAILED TO START
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Description:
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Web server failed to start. Port 8085 was already in use.
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Action:
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.JarScheduler - External jar completed with exit code: 1
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:52:03.114852600
+2025-11-21 15:52:03 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:52:03.138559800
+2025-11-21 15:52:03 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720523114, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:52:03 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:52:04 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 1s144ms
+2025-11-21 15:52:04 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720523114, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 1s176ms
+2025-11-21 15:53:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:53:00.013612
+2025-11-21 15:53:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:53:00.046645300
+2025-11-21 15:53:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720580013, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:53:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:53:00.046645300
+2025-11-21 15:53:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:53:01 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 1s145ms
+2025-11-21 15:53:01 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720580013, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 1s189ms
+2025-11-21 15:53:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:53:01.367 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:02.243+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 29564 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:53:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:02.250+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.305+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.321+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.321+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.362+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1036 ms
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.784+05:30  WARN 29564 --- [ExternalJarForActivity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.797+05:30  INFO 29564 --- [ExternalJarForActivity] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:53:03.817+05:30 ERROR 29564 --- [ExternalJarForActivity] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: APPLICATION FAILED TO START
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Description:
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Web server failed to start. Port 8085 was already in use.
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Action:
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:53:03 INFO  com.example.demo.scheduler.JarScheduler - External jar completed with exit code: 1
+2025-11-21 15:54:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:54:00.006634100
+2025-11-21 15:54:00 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:54:00.410 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:01.220+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 15316 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:54:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:01.227+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:54:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:02.490+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:54:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:02.506+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:54:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:02.507+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:54:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:02.560+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1250 ms
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:03.051+05:30  WARN 15316 --- [ExternalJarForActivity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:03.072+05:30  INFO 15316 --- [ExternalJarForActivity] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:54:03.105+05:30 ERROR 15316 --- [ExternalJarForActivity] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: APPLICATION FAILED TO START
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Description:
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Web server failed to start. Port 8085 was already in use.
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Action:
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.JarScheduler - External jar completed with exit code: 1
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:54:03.182994400
+2025-11-21 15:54:03 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:54:03.212520600
+2025-11-21 15:54:03 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720643182, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:54:03 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:54:04 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 1s162ms
+2025-11-21 15:54:04 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720643182, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 1s194ms
+2025-11-21 15:55:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:55:00.009259900
+2025-11-21 15:55:00 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:55:00.415 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:01.206+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 18884 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:55:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:01.212+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.218+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.231+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.232+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.271+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 986 ms
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.779+05:30  WARN 18884 --- [ExternalJarForActivity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.794+05:30  INFO 18884 --- [ExternalJarForActivity] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:55:02.829+05:30 ERROR 18884 --- [ExternalJarForActivity] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: APPLICATION FAILED TO START
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Description:
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Web server failed to start. Port 8085 was already in use.
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Action:
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.JarScheduler - External jar completed with exit code: 1
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:55:02.907774400
+2025-11-21 15:55:02 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:55:02.933111500
+2025-11-21 15:55:02 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720702907, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:55:02 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:55:03 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 808ms
+2025-11-21 15:55:03 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720702907, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 833ms
+2025-11-21 15:56:00 INFO  com.example.demo.scheduler.JarScheduler - Starting external JAR at: 2025-11-21T15:56:00.009550400
+2025-11-21 15:56:00 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 15:56:00.450 [main] INFO com.example.demo.ExternalJarForActivityApplication -- checking ====================== 
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   .   ____          _            __ _ _
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:   '  |____| .__|_| |_|_| |_\__, | / / / /
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  =========|_|==============|___/=/_/_/_/
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR:  :: Spring Boot ::                (v4.0.0)
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:01.394+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : Starting ExternalJarForActivityApplication v0.1-SNAPSHOT using Java 17.0.14 with PID 30308 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\LOCAL_SpringBatch\ExternalJarForActivity\target\externalJarForActivity-0.1-SNAPSHOT.jar started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:56:01 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:01.398+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] c.e.d.ExternalJarForActivityApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:56:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:02.487+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2025-11-21 15:56:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:02.504+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-21 15:56:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:02.504+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-21 15:56:02 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:02.552+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1073 ms
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:03.024+05:30  WARN 30308 --- [ExternalJarForActivity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:03.041+05:30  INFO 30308 --- [ExternalJarForActivity] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 2025-11-21T15:56:03.065+05:30 ERROR 30308 --- [ExternalJarForActivity] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: APPLICATION FAILED TO START
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: ***************************
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Description:
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Web server failed to start. Port 8085 was already in use.
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Action:
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External JAR: 
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.JarScheduler - External jar completed with exit code: 1
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:56:03.179960
+2025-11-21 15:56:03 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:56:03.201768300
+2025-11-21 15:56:03 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720763179, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:56:03 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:56:03 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 773ms
+2025-11-21 15:56:04 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720763179, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 799ms
+2025-11-21 15:56:21 INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-21 15:56:21 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-21 15:56:21 INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:56:21 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-21 15:56:21 INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:56:21 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:56:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-11-21 15:56:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-11-21 15:56:21 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 37240 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-21 15:56:21 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-21 15:56:21 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 0 ms.
+2025-11-21 15:56:21 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-21 15:56:21 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-11-21 15:56:21 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-21 15:56:21 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:56:21 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-21 15:56:21 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-21 15:56:21 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-21 15:56:21 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 356 ms
+2025-11-21 15:56:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-11-21 15:56:21 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b43a39
+2025-11-21 15:56:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-11-21 15:56:21 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-21 15:56:21 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-21 15:56:21 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-21 15:56:21 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-21 15:56:21 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-21 15:56:21 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-21 15:56:21 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-21 15:56:22 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-21 15:56:22 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:56:22 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-21 15:56:22 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-21 15:56:22 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-21 15:56:22 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-21 15:56:22 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-21 15:56:22 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 0.667 seconds (process running for 473.921)
+2025-11-21 15:56:22 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-21 15:57:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:57:00.001480600
+2025-11-21 15:57:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:57:00.028387600
+2025-11-21 15:57:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720820002, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:57:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:57:00 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 894ms
+2025-11-21 15:57:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720820002, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 923ms
+2025-11-21 15:58:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:58:00.013452100
+2025-11-21 15:58:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:58:00.032123300
+2025-11-21 15:58:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720880013, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:58:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:58:00 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 825ms
+2025-11-21 15:58:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720880013, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 847ms
+2025-11-21 15:59:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - 2025-11-21T15:59:00.007975
+2025-11-21 15:59:00 INFO  com.example.demo.scheduler.CustomerJobScheduler - Batch job triggered by scheduler... Time : 2025-11-21T15:59:00.030971500
+2025-11-21 15:59:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] launched with the following parameters: [{'run.id':'{value=1763720940008, type=class java.lang.Long, identifying=true}'}]
+2025-11-21 15:59:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [csv-step]
+2025-11-21 15:59:00 INFO  org.springframework.batch.core.step.AbstractStep - Step: [csv-step] executed in 874ms
+2025-11-21 15:59:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=importCustomers]] completed with the following parameters: [{'run.id':'{value=1763720940008, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 902ms

@@ -12,13 +12,13 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class JarScheduler {
 
-	@Scheduled(cron = "0 0 */1 * * *")
+	@Scheduled(cron = "0 */5 * * * *")
 	public void runExternalJar() {
 
 		try {
 			log.info("Starting external JAR at: {}", java.time.LocalDateTime.now());
 
-			String jarPath = "C:/myfolder/myapp.jar";
+			String jarPath = "C:\\Users\\Yamini Garudachalam\\Documents\\workspace-spring-tool-suite-4-4.28.0.RELEASE\\LOCAL_SpringBatch\\ExternalJarForActivity\\target\\externalJarForActivity-0.1-SNAPSHOT.jar";
 
 			ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar", jarPath);
 
