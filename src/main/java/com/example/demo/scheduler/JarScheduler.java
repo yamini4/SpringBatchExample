@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class JarScheduler {
 
-	@Scheduled(cron = "0 */5 * * * *")
+	@Scheduled(cron = "0 */1 * * * *")
 	public void runExternalJar() {
 
 		try {
@@ -20,7 +20,8 @@ public class JarScheduler {
 
 			String jarPath = "C:\\Users\\Yamini Garudachalam\\Documents\\workspace-spring-tool-suite-4-4.28.0.RELEASE\\LOCAL_SpringBatch\\ExternalJarForActivity\\target\\externalJarForActivity-0.1-SNAPSHOT.jar";
 
-			ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar", jarPath);
+			ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar", jarPath,
+					"--csv_file_name=large_sample_data_1000_rows.csv");
 
 			processBuilder.redirectErrorStream(true);
 			Process process = processBuilder.start();
