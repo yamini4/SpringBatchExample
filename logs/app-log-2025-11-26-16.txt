@@ -1,0 +1,7 @@
+2025-11-26 16:46:32 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 7272 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-26 16:46:32 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 16:46:32 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-26 16:46:32 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-26 16:46:34 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 15 ms.
+2025-11-26 16:46:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 16:46:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 JPA repository interfaces.
