@@ -1,25 +1,25 @@
-2025-11-26 17:02:30 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 12448 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
-2025-11-26 17:02:30 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
-2025-11-26 17:02:30 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-11-26 17:02:30 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-11-26 17:02:31 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 6 ms.
-2025-11-26 17:02:32 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-26 17:02:32 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 JPA repository interfaces.
-2025-11-26 17:02:33 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-11-26 17:02:33 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-11-26 17:02:33 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2025-11-26 17:02:33 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-26 17:02:33 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-11-26 17:02:33 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3278 ms
-2025-11-26 17:02:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-11-26 17:02:34 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cdb6db0
-2025-11-26 17:02:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-11-26 17:02:35 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-26 17:02:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-26 17:02:35 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-11-26 17:02:36 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-26 17:02:36 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-11-26 17:02:36 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-11-27 20:09:28 INFO  com.example.demo.SpringBatchExampleApplication - Starting SpringBatchExampleApplication using Java 17.0.14 with PID 32464 (C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample\target\classes started by Yamini Garudachalam in C:\Users\Yamini Garudachalam\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\AKS_MyBrain_FIXES\SpringBatchExample)
+2025-11-27 20:09:28 INFO  com.example.demo.SpringBatchExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-27 20:09:29 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-27 20:09:29 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-27 20:09:30 INFO  org.springframework.batch.core.configuration.annotation.BatchRegistrar - Finished Spring Batch infrastructure beans configuration in 8 ms.
+2025-11-27 20:09:31 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27 20:09:31 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 JPA repository interfaces.
+2025-11-27 20:09:32 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-27 20:09:32 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-27 20:09:32 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-27 20:09:32 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-27 20:09:32 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-27 20:09:32 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3654 ms
+2025-11-27 20:09:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-27 20:09:34 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@571cbb22
+2025-11-27 20:09:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-27 20:09:34 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27 20:09:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-27 20:09:34 INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-27 20:09:35 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27 20:09:36 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-27 20:09:36 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -27,16 +27,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-26 17:02:37 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-26 17:02:37 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-26 17:02:37 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
-2025-11-26 17:02:37 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
-2025-11-26 17:02:37 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
-2025-11-26 17:02:37 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
-2025-11-26 17:02:37 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-26 17:02:38 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-11-26 17:02:38 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-11-26 17:02:38 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-11-26 17:02:38 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 9.158 seconds (process running for 10.969)
-2025-11-26 17:03:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=jarExecutionJob]] launched with the following parameters: [{'timestamp':'{value=1764156780028, type=class java.lang.Long, identifying=true}'}]
-2025-11-26 17:03:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [jarStep]
+2025-11-27 20:09:36 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27 20:09:36 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27 20:09:36 INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+2025-11-27 20:09:37 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2025-11-27 20:09:37 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-27 20:09:37 INFO  org.springframework.batch.core.configuration.annotation.BatchObservabilityBeanPostProcessor - No Micrometer observation registry found, defaulting to ObservationRegistry.NOOP
+2025-11-27 20:09:37 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27 20:09:37 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-27 20:09:38 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-27 20:09:38 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-27 20:09:38 INFO  com.example.demo.SpringBatchExampleApplication - Started SpringBatchExampleApplication in 11.042 seconds (process running for 12.212)
+2025-11-27 20:10:00 INFO  org.springframework.batch.core.launch.support.TaskExecutorJobLauncher - Job: [SimpleJob: [name=jarExecutionJob]] launched with the following parameters: [{'timestamp':'{value=1764254400018, type=class java.lang.Long, identifying=true}'}]
+2025-11-27 20:10:00 INFO  org.springframework.batch.core.job.SimpleStepHandler - Executing step: [jarStep]
